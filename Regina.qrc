@@ -1,0 +1,5 @@
+<RCC>
+	<qresource prefix="/">
+		<file>Regina.qml</file>
+	</qresource>
+</RCC>

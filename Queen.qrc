@@ -1,0 +1,8 @@
+<RCC>
+	<qresource prefix="/">
+		<file>qtquickcontrols2.conf</file>
+		<file>Dummy.qml</file>
+		<file>English.qm</file>
+		<file>Russian.qm</file>
+	</qresource>
+</RCC>
