@@ -1,0 +1,15 @@
+module Repository.View
+
+Dashboard 0.1 Dashboard.qml
+ObjectNavigator 0.1 ObjectNavigator.qml
+SubjectProfile 0.1 SubjectProfile.qml
+FilterField 0.1 FilterField.qml
+JobDelegate 0.1 JobDelegate.qml
+WebApplication 0.1 WebApplication.qml
+
+Dashboard 0.2 Dashboard.0.2.qml
+ObjectNavigator 0.2 ObjectNavigator.qml
+SubjectProfile 0.2 SubjectProfile.qml
+FilterField 0.2 FilterField.qml
+JobDelegate 0.2 JobDelegate.qml
+WebApplication 0.2 WebApplication.qml

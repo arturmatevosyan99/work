@@ -1,0 +1,18 @@
+<RCC>
+	<qresource prefix="/EC">
+		<file>Asset/Icon/OnlineShop.svg</file>
+		<file>Asset/Icon/CustomerAccount.svg</file>
+	</qresource>
+
+	<qresource prefix="/EC">
+		<file>View/Application/qmldir</file>
+		<file>View/Application/ShopShowcase.qml</file>
+		<file>View/Application/CustomerAccount.qml</file>
+	</qresource>
+
+	<qresource prefix="/EC">
+		<file>View/Message/qmldir</file>
+		<file>View/Message/PaymentMessage.qml</file>
+		<file>View/Message/OfferMessage.qml</file>
+	</qresource>
+</RCC>

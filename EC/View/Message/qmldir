@@ -1,0 +1,4 @@
+module EC.View.Message
+
+PaymentMessage 0.1 PaymentMessage.qml
+OfferMessage 0.1 OfferMessage.qml

@@ -1,0 +1,7 @@
+module Conversation.View
+
+ChannelShield 0.1 ChannelShield.qml
+FeedView 0.1 FeedView.qml
+MediaList 0.1 MediaList.qml
+MediaGrid 0.1 MediaGrid.qml
+MediaCarousel 0.1 MediaCarousel.qml

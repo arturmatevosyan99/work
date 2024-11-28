@@ -1,0 +1,6 @@
+module Mentalgami.View.Application
+
+CoursePlaylist 0.1 CoursePlaylist.qml
+SmartDiary 0.1 SmartDiary.qml
+PatientQuiz 0.1 PatientQuiz.qml
+AuthorizationQuiz 0.1 AuthorizationQuiz.qml

@@ -1,0 +1,41 @@
+<RCC>
+	<qresource prefix="/Repository">
+		<file>Asset/Image/DashboardGo.svg</file>
+		<file>Asset/Image/DashboardStop.svg</file>
+		<file>Asset/Image/Connection.svg</file>
+		<file>Asset/Image/Disconnection.svg</file>
+		<file>Asset/Image/SubjectNavigator.svg</file>
+		<file>Asset/Image/ObjectNavigator.svg</file>
+		<file>Asset/Image/Star1.svg</file>
+		<file>Asset/Image/Star2.svg</file>
+		<file>Asset/Image/PatientPicture.jpg</file>
+		<file>Asset/Image/OblozhkoPicture.jpg</file>
+		<file>Asset/Image/AngelinaPicture.jpg</file>
+		<file>Asset/Icon/Object.svg</file>
+		<file>Asset/Icon/PrivateRoot.svg</file>
+		<file>Asset/Icon/PictureViewer.svg</file>
+		<file>Asset/Icon/WebApplication.svg</file>
+		<file>Asset/Icon/MultimediaPlaylist.svg</file>
+	</qresource>
+
+	<qresource prefix="/Repository">
+		<file>View/qmldir</file>
+		<file>View/Dashboard.qml</file>
+		<file>View/Dashboard.0.2.qml</file>
+		<file>View/ObjectNavigator.qml</file>
+		<file>View/SubjectProfile.qml</file>
+		<file>View/FilterField.qml</file>
+		<file>View/JobDelegate.qml</file>
+	</qresource>
+
+	<qresource prefix="/Repository">
+		<file>View/Application/qmldir</file>
+		<file>View/Application/WebApplication.qml</file>
+	</qresource>
+
+	<qresource prefix="/Repository">
+		<file>View/Widget/qmldir</file>
+		<file>View/Widget/AuthenticationWidget.qml</file>
+		<file>View/Widget/AuthenticationWidget.0.2.qml</file>
+	</qresource>
+</RCC>

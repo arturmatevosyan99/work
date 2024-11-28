@@ -1,0 +1,9 @@
+"CFBundleDisplayName" = "SmartCare";
+"NSPhotoLibraryUsageDescription" = "The access to the camera is needed so that you can take photos and share with coaches in case when you need to";
+"NSCameraUsageDescription" = "The access to the camera is needed so that you can take photos and share with coaches in case when you need to";
+"NSHealthShareUsageDescription" = "Access to the Health data is necessary for tracking daily activity";
+"NSHealthUpdateUsageDescription" = "Access to the Health data is necessary for tracking daily activity";
+"NSLocationUsageDescription" = "Geolocation data is used to determine the time zone and optimal nutrition plan based on your region";
+"NSLocationWhenInUseUsageDescription" = "Geolocation data is used to determine the time zone and optimal nutrition plan based on your region";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Geolocation data is used to determine the time zone and optimal nutrition plan based on your region";
+"NSMicrophoneUsageDescription" = "Access to the microphone is necessary for sending voice messages";

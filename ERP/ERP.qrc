@@ -1,0 +1,15 @@
+<RCC>
+	<qresource prefix="/ERP">
+		<file>Asset/Image/DocumentNavigator.svg</file>
+	</qresource>
+	
+	<qresource prefix="/ERP">
+		<file>Asset/Icon/Enterprise.svg</file>
+		<file>Asset/Icon/DocumentJournal.svg</file>
+	</qresource>
+
+	<qresource prefix="/ERP">
+		<file>View/Message/qmldir</file>
+		<file>View/Message/DocumentMessage.qml</file>
+	</qresource>
+</RCC>

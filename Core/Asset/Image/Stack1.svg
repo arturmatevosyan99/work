@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Stack1" sketch:type="MSLayerGroup" transform="translate(-1.000000, -1.000000)">
+            <g id="Group" sketch:type="MSShapeGroup">
+                <g transform="translate(0.693210, 0.579749)" id="Rectangle-path">
+                    <rect x="0.3070782" y="0.42017696" width="47.9997585" height="47.9998583"></rect>
+                </g>
+                <path d="M7,11 C5.895,11 5,11.895 5,13 C5,14.105 5.895,15 7,15 L43,15 C44.105,15 45,14.105 45,13 C45,11.895 44.105,11 43,11 L7,11 L7,11 Z M7,23 C5.895,23 5,23.895 5,25 C5,26.105 5.895,27 7,27 L43,27 C44.105,27 45,26.105 45,25 C45,23.895 44.105,23 43,23 L7,23 L7,23 Z M7,35 C5.895,35 5,35.895 5,37 C5,38.105 5.895,39 7,39 L43,39 C44.105,39 45,38.105 45,37 C45,35.895 44.105,35 43,35 L7,35 L7,35 Z" id="Shape" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

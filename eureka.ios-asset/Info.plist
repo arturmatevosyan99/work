@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>SmartCare</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Powered by Cadabra Systems LLC</string>
+	<key>CFBundleIconFile</key>
+	<string>${ASSETCATALOG_COMPILER_APPICON_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>${PRODUCT_BUNDLE_IDENTIFIER}</string>
+	<key>CFBundleName</key>
+	<string>SmartCare</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>${QMAKE_FULL_VERSION}</string>
+	<key>CFBundleSignature</key>
+	<string>${QMAKE_PKGINFO_TYPEINFO}</string>
+	<key>CFBundleVersion</key>
+	<string>${QMAKE_FULL_VERSION}</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>MinimumOSVersion</key>
+	<string>${IPHONEOS_DEPLOYMENT_TARGET}</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>The access to the photo library is needed so that you can take photos and share with coaches in case when you need to</string>
+	<key>NSCameraUsageDescription</key>
+	<string>The access to the camera is needed so that you can take photos and share with coaches in case when you need to</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Access to the Health data is necessary for tracking daily activity</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Access to the Health data is necessary for tracking daily activity</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Geolocation data is used to determine the time zone and optimal nutrition plan based on your region</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Geolocation data is used to determine the time zone and optimal nutrition plan based on your region</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Geolocation data is used to determine the time zone and optimal nutrition plan based on your region</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Access to the microphone is necessary for sending voice messages</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>EurekaLauncher</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+</dict>
+</plist>

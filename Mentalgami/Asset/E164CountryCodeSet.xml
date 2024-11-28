@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array>
+		<item>
+			<name>Armenia</name>
+			<code>374</code>
+			<mask>99-999-999</mask>
+			<emoji>🇦🇲</emoji>
+		</item>
+		<item>
+			<name>Armenia</name>
+			<code>374</code>
+			<mask>99-999-999</mask>
+			<emoji>🇦🇲</emoji>
+		</item>
+		<item>
+			<name>Armenia</name>
+			<code>374</code>
+			<mask>99-999-999</mask>
+			<emoji>🇦🇲</emoji>
+		</item>
+		<item>
+			<name>Russian Federation</name>
+			<code>7</code>
+			<mask>(999) 999-99-99</mask>
+			<emoji>🇷🇺</emoji>
+		</item>
+		<item>
+			<name>Russian Federation</name>
+			<code>7</code>
+			<mask>(999) 999-99-99</mask>
+			<emoji>🇷🇺</emoji>
+		</item>
+		<item>
+			<name>Russian Federation</name>
+			<code>7</code>
+			<mask>(999) 999-99-99</mask>
+			<emoji>🇷🇺</emoji>
+		</item>
+	</string-array>
+</resources>

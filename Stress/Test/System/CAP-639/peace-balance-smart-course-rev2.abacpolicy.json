@@ -1,0 +1,138 @@
+{
+    "version": "abac1",
+    "statement":
+    [
+        {
+            "action":
+            [
+                "crn:cap:ace:(repository.playlist:)repository.sequenceindex"
+            ],
+            "effect": "allow",
+            "resource":
+            [
+                "crn:cap:ace:$$:(repository.playlist/track/*"
+            ]
+        }
+        ,
+        {
+            "action":
+            [
+                "crn:cap:ace:(repository.url:)repository.sign",
+                "crn:cap:ace:(repository.url:)repository.fetch"
+            ],
+            "effect": "allow",
+            "resource":
+            [
+                "crn:cap:ace:$$:(repository.url/track/1",
+                "crn:cap:ace:$$:(repository.url/track/2",
+                "crn:cap:ace:$$:(repository.url/track/3",
+                "crn:cap:ace:$$:(repository.url/track/4",
+                "crn:cap:ace:$$:(repository.url/track/5",
+                "crn:cap:ace:$$:(repository.url/track/6",
+                "crn:cap:ace:$$:(repository.url/track/7",
+                "crn:cap:ace:$$:(repository.url/track/8",
+                "crn:cap:ace:$$:(repository.url/track/9",
+                "crn:cap:ace:$$:(repository.url/track/10",
+
+                "crn:cap:ace:$$:(repository.url/track/11",
+                "crn:cap:ace:$$:(repository.url/track/12",
+                "crn:cap:ace:$$:(repository.url/track/13",
+                "crn:cap:ace:$$:(repository.url/track/14",
+                "crn:cap:ace:$$:(repository.url/track/15",
+                "crn:cap:ace:$$:(repository.url/track/16",
+                "crn:cap:ace:$$:(repository.url/track/17",
+
+                "crn:cap:ace:$$:(repository.url/track/18",
+                "crn:cap:ace:$$:(repository.url/track/19",
+                "crn:cap:ace:$$:(repository.url/track/20",
+                "crn:cap:ace:$$:(repository.url/track/21",
+                "crn:cap:ace:$$:(repository.url/track/22",
+                "crn:cap:ace:$$:(repository.url/track/23"
+            ],
+            "condition":
+            {
+                "crn:cap:ace:$$:(ec.dispatchment/license/day":
+                {
+                    ">=": 1
+                },
+                "crn:cap:ace:$$:(ec.dispatchment/license/revision":
+                {
+                    "=": 2
+                }
+            }
+        }
+        ,
+        {
+            "action":
+            [
+                "crn:cap:ace:(repository.playlist:)repository.playbackpause"
+            ],
+            "effect": "allow",
+            "resource":
+            [
+                "crn:cap:ace:$$:(repository.playlist/track/1",
+                "crn:cap:ace:$$:(repository.playlist/track/2",
+                "crn:cap:ace:$$:(repository.playlist/track/3",
+                "crn:cap:ace:$$:(repository.playlist/track/4",
+                "crn:cap:ace:$$:(repository.playlist/track/5",
+                "crn:cap:ace:$$:(repository.playlist/track/6",
+                "crn:cap:ace:$$:(repository.playlist/track/7",
+                "crn:cap:ace:$$:(repository.playlist/track/8",
+                "crn:cap:ace:$$:(repository.playlist/track/9",
+                "crn:cap:ace:$$:(repository.playlist/track/10",
+
+                "crn:cap:ace:$$:(repository.playlist/track/11",
+                "crn:cap:ace:$$:(repository.playlist/track/12",
+                "crn:cap:ace:$$:(repository.playlist/track/13",
+                "crn:cap:ace:$$:(repository.playlist/track/14",
+                "crn:cap:ace:$$:(repository.playlist/track/15",
+                "crn:cap:ace:$$:(repository.playlist/track/16",
+                "crn:cap:ace:$$:(repository.playlist/track/17",
+
+                "crn:cap:ace:$$:(repository.playlist/track/18",
+                "crn:cap:ace:$$:(repository.playlist/track/19",
+                "crn:cap:ace:$$:(repository.playlist/track/20",
+                "crn:cap:ace:$$:(repository.playlist/track/21",
+                "crn:cap:ace:$$:(repository.playlist/track/22",
+                "crn:cap:ace:$$:(repository.playlist/track/23"
+
+            ],
+            "condition":
+            {
+                "crn:cap:ace:$$:(ec.dispatchment/license/day":
+                {
+                    ">=": 1
+                },
+                "crn:cap:ace:$$:(ec.dispatchment/license/revision":
+                {
+                    "=": 2
+                }
+            }
+        }
+        ,
+        {
+            "action":
+            [
+                "crn:cap:ace:(repository.url:)repository.sign",
+                "crn:cap:ace:(repository.url:)repository.fetch"
+            ],
+            "effect": "deny",
+            "resource":
+            [
+                "crn:cap:ace:$$:(repository.url/track/*"
+            ]
+        }
+        ,
+        {
+            "action":
+            [
+                "crn:cap:ace:(repository.playlist:)repository.playbackpause"
+            ],
+            "effect": "deny",
+            "resource":
+            [
+                "crn:cap:ace:$$:(repository.playlist/track/*"
+            ]
+        }
+    ]
+}

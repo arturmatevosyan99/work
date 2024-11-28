@@ -1,0 +1,106 @@
+<RCC>
+	<qresource prefix="/Mentalgami">
+		<file>Asset/Icon/GenericQuiz.svg</file>
+		<file>Asset/Icon/SmartCourse.svg</file>
+	</qresource>
+
+	<qresource prefix="/Mentalgami">
+		<file>Asset/E164CountryCodeSet.xml</file>
+	</qresource>
+
+	<qresource prefix="/Mentalgami">
+		<file>Asset/Image/BigA.svg</file>
+		<file>Asset/Image/Bulb.svg</file>
+		<file>Asset/Image/UnknownAward.svg</file>
+		<file>Asset/Image/LoadingAward.svg</file>
+		<file>Asset/Image/Calendar.svg</file>
+		<file>Asset/Image/CloudLink.svg</file>
+		<file>Asset/Image/ColorPicker.svg</file>
+		<file>Asset/Image/ExcelBook1.svg</file>
+		<file>Asset/Image/ExcelBook2.svg</file>
+		<file>Asset/Image/HandBook.svg</file>
+		<file>Asset/Image/InteractiveApplication.svg</file>
+		<file>Asset/Image/LetApplication.svg</file>
+		<file>Asset/Image/List1.svg</file>
+		<file>Asset/Image/List2.svg</file>
+		<file>Asset/Image/List3.svg</file>
+		<file>Asset/Image/Movie.svg</file>
+		<file>Asset/Image/Music.svg</file>
+		<file>Asset/Image/PortableDocument1.svg</file>
+		<file>Asset/Image/PortableDocument2.svg</file>
+		<file>Asset/Image/RichDocument1.svg</file>
+		<file>Asset/Image/Telegram.svg</file>
+		<file>Asset/Image/TextDocument1.svg</file>
+		<file>Asset/Image/UniBook.svg</file>
+		<file>Asset/Image/WebApplication.svg</file>
+		<file>Asset/Image/CourseCover.png</file>
+		<file>Asset/Image/start_emoji.png</file>
+		<file>Asset/Image/finish_emoji.png</file>
+	</qresource>
+
+	<qresource prefix="/Mentalgami">
+		<file>Asset/File/com.oblozhko.foodreport.award.cmz</file>
+		<file>Asset/File/com.oblozhko.metabolicplate.award.cmz</file>
+		<file>Asset/File/com.oblozhko.peacebalance.award.cmz</file>
+	</qresource>
+
+	<qresource prefix="/Mentalgami">
+		<file>View/Application/qmldir</file>
+		<file>View/Application/SmartDiary.qml</file>
+		<file>View/Application/CoursePlaylist.qml</file>
+		<file>View/Application/PatientQuiz.qml</file>
+		<file>View/Application/AuthorizationQuiz.qml</file>
+	</qresource>
+
+	<qresource prefix="/Mentalgami">
+		<file>View/qmldir</file>
+		<file>View/ConversationChannelShield.qml</file>
+	</qresource>
+
+	<qresource prefix="/Mentalgami">
+		<file>View/Track/qmldir</file>
+		<file>View/Track/UnsupportedTrack.qml</file>
+		<file>View/Track/VideoTrack.2.qml</file>
+		<file>View/Track/VideoTrack.qml</file>
+		<file>View/Track/WebTrack.2.qml</file>
+		<file>View/Track/WebTrack.qml</file>
+		<file>View/Track/HTMLTrack.2.qml</file>
+		<file>View/Track/HTMLTrack.qml</file>
+		<file>View/Track/MSExcelTrack.1.qml</file>
+		<file>View/Track/MSExcelTrack.qml</file>
+		<file>View/Track/MSWordTrack.1.qml</file>
+		<file>View/Track/MSWordTrack.qml</file>
+		<file>View/Track/RTFTrack.1.qml</file>
+		<file>View/Track/RTFTrack.qml</file>
+		<file>View/Track/PDFTrack.1.qml</file>
+		<file>View/Track/PDFTrack.qml</file>
+		<file>View/Track/CalendarTrack.1.qml</file>
+		<file>View/Track/CalendarTrack.qml</file>
+		<file>View/Track/TelegramTrack.1.qml</file>
+		<file>View/Track/TelegramTrack.qml</file>
+	</qresource>
+
+	<qresource prefix="/Mentalgami">
+		<file>View/Message/qmldir</file>
+		<file>View/Message/SmartCourseMessage.qml</file>
+		<file>View/Message/SmartCourseMessage.4.qml</file>
+		<file>View/Message/AwardMessage.qml</file>
+		<file>View/Message/AwardMessage.1.qml</file>
+	</qresource>
+
+	<qresource prefix="/Mentalgami">
+		<file>View/Riddle/qmldir</file>
+		<file>View/Riddle/UnsupportedRiddle.qml</file>
+		<file>View/Riddle/PhoneNumberRiddle.qml</file>
+		<file>View/Riddle/EmailAddressRiddle.qml</file>
+		<file>View/Riddle/CodeVerificationRiddle.qml</file>
+		<file>View/Riddle/HomeDirectoryLoaderRiddle.qml</file>
+		<file>View/Riddle/BoolRiddle.qml</file>
+		<file>View/Riddle/TextRiddle.qml</file>
+		<file>View/Riddle/NullRiddle.qml</file>
+		<file>View/Riddle/DateRiddle.qml</file>
+		<file>View/Riddle/ListRiddle.qml</file>
+		<file>View/Riddle/NumericRiddle.qml</file>
+		<file>View/Riddle/IntegerRiddle.qml</file>
+	</qresource>
+</RCC>

@@ -1,0 +1,369 @@
+{
+	"": {
+
+	},
+	
+	"light":{
+		"color": {
+					"accent": "#E91E63",
+					"primary": "#146EDC",
+					"background": "#F3F4F6",
+					"foreground": "#242424"
+		},
+		"font": {
+			"default": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 17,
+						"letter-spacing": 0.0,
+						"word-spacing": 0.0
+			},
+			"header1": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Light",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 96,
+						"letter-spacing": -1.5
+			},
+			"header2": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Light",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 60,
+						"letter-spacing": -0.5
+			},
+			"header3": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 48,
+						"letter-spacing": 0
+			},
+			"header4": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 34,
+						"letter-spacing": 0.25
+			},
+			"header5": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 24,
+						"letter-spacing": 0
+			},
+			"header6": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Meduium",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 20,
+						"letter-spacing": 0.15
+			},
+			"title1": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 24,
+						"letter-spacing": 0.15
+			},
+			"title2": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Medium",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 20,
+						"letter-spacing": 0.1
+			},
+			"title3": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 16,
+						"letter-spacing": 0.15
+			},
+			"title4": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Medium",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 14,
+						"letter-spacing": 0.1
+			},
+			"body1": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 16,
+						"letter-spacing": 0.5
+			},
+			"body2": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 14,
+						"letter-spacing": 0.25
+			},
+			"button": {
+						"family": "Inter Variable",
+						"case": "Upper",
+						"weight": "Medium",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 14,
+						"letter-spacing": 1.25
+			},
+			"caption": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 12,
+						"letter-spacing": 0.4
+			},
+			"headerline": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 15,
+						"letter-spacing": 1.5
+			},
+			"overline": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 10,
+						"letter-spacing": 1.5
+			}
+		}
+	},
+
+	"dark": {
+		"color": {
+					"accent": "#E91E63",
+					"primary": "#146EDC",
+					"background": "#242424",
+					"foreground": "#CECECE"
+		},
+		"font": {
+			"default": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 17,
+						"letter-spacing": 0.0,
+						"word-spacing": 0.0
+			},
+			"header1": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Light",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 96,
+						"letter-spacing": -1.5
+			},
+			"header2": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Light",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 60,
+						"letter-spacing": -0.5
+			},
+			"header3": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 48,
+						"letter-spacing": 0
+			},
+			"header4": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 34,
+						"letter-spacing": 0.25
+			},
+			"header5": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 24,
+						"letter-spacing": 0
+			},
+			"header6": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Meduium",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 20,
+						"letter-spacing": 0.15
+			},
+			"title1": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 24,
+						"letter-spacing": 0.15
+			},
+			"title2": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Medium",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 20,
+						"letter-spacing": 0.1
+			},
+			"title3": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 16,
+						"letter-spacing": 0.15
+			},
+			"title4": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Medium",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 14,
+						"letter-spacing": 0.1
+			},
+			"body1": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 16,
+						"letter-spacing": 0.5
+			},
+			"body2": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 14,
+						"letter-spacing": 0.25
+			},
+			"button": {
+						"family": "Inter Variable",
+						"case": "Upper",
+						"weight": "Medium",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 14,
+						"letter-spacing": 1.25
+			},
+			"caption": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 12,
+						"letter-spacing": 0.4
+			},
+			"headerline": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 15,
+						"letter-spacing": 1.5
+			},
+			"overline": {
+						"family": "Inter Variable",
+						"case": "Mixed",
+						"weight": "Regular",
+						"italic": false,
+						"underline": false,
+						"strike": false,
+						"size": 10,
+						"letter-spacing": 1.5
+			}
+		}
+	}
+}

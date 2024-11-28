@@ -1,0 +1,107 @@
+repositories {
+	maven {
+		url 'https://maven.google.com'
+	}
+	google()
+	jcenter()
+	maven {
+		url 'https://developer.huawei.com/repo/'
+	}
+	maven {
+		url 'https://artifactory-external.vkpartner.ru/artifactory/maven'
+	}
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.huawei.agconnect'
+apply from: 'queen.properties'
+
+buildscript {
+	repositories {
+		google()
+		jcenter()
+		mavenCentral()
+		maven {
+			url 'https://developer.huawei.com/repo/'
+		}
+	}
+
+	dependencies {
+		classpath 'com.android.tools.build:gradle:7.0.2'
+
+		classpath 'com.google.gms:google-services:4.3.0'
+		classpath 'com.huawei.agconnect:agcp:1.6.5.300'
+	}
+}
+
+dependencies {
+	implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+
+	implementation 'androidx.core:core:1.3.2'
+
+	implementation 'ru.tinkoff.acquiring:ui:1.7.5'
+
+	implementation 'com.google.android.play:core:1.7.3'
+	implementation 'com.google.android.gms:play-services-auth:17.0.0'
+	implementation 'com.huawei.hms:hmscoreinstaller:6.7.0.300'
+
+	implementation 'com.google.firebase:firebase-messaging:21.1.0'
+	implementation 'com.huawei.hms:push:6.11.0.300'
+	implementation 'ru.rustore.sdk:pushclient:1.0.0'
+
+	implementation 'com.google.android.gms:play-services-fitness:18.0.0'
+
+	implementation 'com.google.android.gms:play-services-tagmanager:18.0.4'
+}
+
+android {
+	compileSdkVersion androidCompileSdkVersion
+	buildToolsVersion androidBuildToolsVersion
+	ndkVersion androidNdkVersion
+
+	sourceSets {
+		main {
+			manifest.srcFile 'AndroidManifest.xml'
+			java.srcDirs = [qt5AndroidDir + '/src', 'src', 'java']
+			aidl.srcDirs = [qt5AndroidDir + '/src', 'src', 'aidl']
+			res.srcDirs = [qt5AndroidDir + '/res', 'res']
+			resources.srcDirs = ['src']
+			renderscript.srcDirs = ['src']
+			assets.srcDirs = ['assets']
+			jniLibs.srcDirs = ['libs']
+		}
+	}
+
+	tasks.withType(JavaCompile) {
+		options.incremental = true
+	}
+
+	compileOptions {
+		sourceCompatibility JavaVersion.VERSION_1_8
+		targetCompatibility JavaVersion.VERSION_1_8
+	}
+
+	lintOptions {
+		abortOnError false
+	}
+
+	aaptOptions {
+		noCompress 'rcc'
+	}
+
+	defaultConfig {
+		versionCode Integer.parseInt(queenVersionCode)
+		versionName queenVersionName
+		minSdkVersion qtMinSdkVersion
+		targetSdkVersion qtTargetSdkVersion
+		resConfigs 'en', 'ru'
+/*
+		manifestPlaceholders = [
+		]
+*/
+		ndk {
+			debugSymbolLevel = 'FULL'
+		}
+	}
+}

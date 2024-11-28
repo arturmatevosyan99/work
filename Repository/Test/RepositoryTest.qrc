@@ -1,0 +1,16 @@
+<RCC>
+	<qresource prefix="/Repository/Test">
+		<file>Development/WebApplicationTest.qml</file>
+	</qresource>
+
+	<qresource prefix="/Repository/Test">
+		<file>Integration/AceBootUp.qml</file>
+		<file>Integration/AceCrashDown.qml</file>
+		<file>Integration/EndpointOnline.qml</file>
+		<file>Integration/EndpointOffline.qml</file>
+		<file>Integration/DirectoryIndex.qml</file>
+		<file>Integration/IndexAndAceCrashDown.qml</file>
+		<file>Integration/AceBootUpAndIndex.qml</file>
+		<file>Integration/GroupChannelEchoLoop.qml</file>
+	</qresource>
+</RCC>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "556473615492",
+    "firebase_url": "https://cadabra-platform.firebaseio.com",
+    "project_id": "cadabra-platform",
+    "storage_bucket": "cadabra-platform.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556473615492:android:1466fdd7812561f3a66ed1",
+        "android_client_info": {
+          "package_name": "systems.cadabra.queen.ladybug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556473615492-jkne9lfv4dvfhv2s1p41ftu0b4auujkm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "systems.cadabra.queen.ladybug",
+            "certificate_hash": "b70e1f56addc7804ade6b4575b5bb49c0d34510f"
+          }
+        },
+        {
+          "client_id": "556473615492-nenbj623a2mkqmttnnt6go2scdppva4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgRr19krZyjaWSFDHFWbam0cmYjbDK9AA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556473615492-nenbj623a2mkqmttnnt6go2scdppva4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

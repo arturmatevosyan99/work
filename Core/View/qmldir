@@ -1,0 +1,15 @@
+module Core.View
+MultimediaPlayer 0.1 MultimediaPlayer.qml
+ImageViewer 0.1 ImageViewer.qml
+PDFViewer 0.1 PDFViewer.qml
+Camera 0.1 Camera.qml
+FileDialog 0.1 FileDialog.qml
+DiagnosticCollector 0.1 DiagnosticCollector.qml
+StackBar 0.1 StackBar.qml
+TextareaDelegate 0.1 TextareaDelegate.qml
+CallbackDelegate 0.1 CallbackDelegate.qml
+ActionButton 0.1 ActionButton.qml
+AccountInput 0.1 AccountInput.qml
+PinInput 0.1 PinInput.qml
+ProgressPie 0.1 ProgressPie.qml
+WebView 0.1 WebView.qml

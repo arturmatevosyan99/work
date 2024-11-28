@@ -1,0 +1,4 @@
+module Repository.View.Widget
+
+AuthenticationWidget 0.1 AuthenticationWidget.qml
+AuthenticationWidget 0.2 AuthenticationWidget.0.2.qml

@@ -1,0 +1,38 @@
+<RCC>
+	<qresource prefix="/Stress">
+		<file>Asset/Image/FlyGo.svg</file>
+		<file>Asset/Image/FlyStop.svg</file>
+		<file>Asset/Image/LogFeed.svg</file>
+		<file>Asset/Image/EnvConfig.svg</file>
+	</qresource>
+
+	<qresource prefix="/Stress">
+		<file>Test/Death/0.qml</file>
+	</qresource>
+
+	<qresource prefix="/Stress">
+		<file>Test/Development/WebView.qml</file>
+		<file>Test/Development/FontTheme.qml</file>
+		<file>Test/Development/DisplayCutout.qml</file>
+		<file>Test/Development/Emojis.qml</file>
+		<file>Test/Development/DeviceTokenGet.qml</file>
+	</qresource>
+
+	<qresource prefix="/Stress">
+		<file>Test/Integration/CAP-652.qml</file>
+	</qresource>
+
+	<qresource prefix="/Stress">
+		<file>Test/System/CAP-622.qml</file>
+		<file>Test/System/CAP-50.qml</file>
+		<file>Test/System/CAP-636.qml</file>
+		<file>Test/System/CAP-639.qml</file>
+		<file>Test/System/CAP-643.qml</file>
+		<file>Test/System/CAP-664.qml</file>
+	</qresource>
+
+	<qresource prefix="/Stress">
+		<file>Test/Proof/CAP-449.qml</file>
+		<file>Test/Proof/CAP-654.qml</file>
+	</qresource>
+</RCC>

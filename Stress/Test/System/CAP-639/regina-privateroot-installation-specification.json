@@ -1,0 +1,20 @@
+{
+	"home_object_prefix": "Supervisor",
+	"home_application_alias": "repository.homedirectory",
+	"emailaddress_ep_method": {
+		"in_active": true,
+		"up_active": false
+	},
+	"phonenumber_ep_method": {
+		"in_active": true,
+		"up_active": false
+	},
+	"emailmessage_otp_method": {
+		"in_active": false,
+		"up_active": false
+	},
+	"shortmessage_otp_method": {
+		"in_active": false,
+		"up_active": false
+	}
+}

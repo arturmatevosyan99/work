@@ -1,0 +1,47 @@
+#!/usr/local/bin/ace
+setup
+${enterprise_id} = /repository/hierarchy/object/add name="Hudeem-Online.Ru" application="ERP.Enterprise" parent=1 subject=ace group=super SAM=rwx GAM=rwx WAM=rwx
+/repository/hierarchy/object/install target=${enterprise_id}
+
+${generalledger_id} = /repository/hierarchy/object/add name="Главная книга" application="FA.GeneralLedger" parent=${enterprise_id} subject=ace group=super SAM=rwx GAM=rwx WAM=rwx
+/repository/hierarchy/object/install target=${generalledger_id}
+
+${warehouse_id} = /repository/hierarchy/object/add name="Склад" application="WMS.Warehouse" parent=${enterprise_id} subject=ace group=super SAM=rwx GAM=rwx WAM=rwx
+/repository/hierarchy/object/install target=${warehouse_id}
+
+${onlineshop_id} = /repository/hierarchy/object/add name="Интернет-магазин" application="EC.OnlineShop" parent=${enterprise_id} subject=ace group=super SAM=rwx GAM=rwx WAM=rwx
+/repository/hierarchy/object/install target=${onlineshop_id}
+
+${regina_private_root_id} = /repository/hierarchy/object/add name="Reginas" application="Repository.PrivateRoot" parent=${enterprise_id} subject=ace group=super SAM=rwx GAM=rx
+/repository/hierarchy/object/install target=${regina_private_root_id} specification=file://regina-privateroot-installation-specification.json
+
+${eureka_private_root_id} = /repository/hierarchy/object/add name="Eureaks" application="repository.privateroot" parent=${enterprise_id} subject=ace group=super SAM=rwx GAM=rx
+/repository/hierarchy/object/install target=${eureka_private_root_id} specification=file://eureka-privateroot-installation-specification.json
+
+${afrodita_private_root_id} = /repository/hierarchy/object/add name="Afroditas" application="repository.privateroot" parent=${enterprise_id} subject=ace group=super SAM=rwx GAM=rx
+/repository/hierarchy/object/install target=${afrodita_private_root_id} specification=file://afrodita-privateroot-installation-specification.json
+
+${super_private_root_id} = /repository/hierarchy/object/add name="Supers" application="Repository.PrivateRoot" parent=${enterprise_id} subject=ace group=super SAM=rwx
+
+${welcome_quiz_id} = /repository/hierarchy/object/add name="Welcome Quiz" application="Mentalgami.WelcomeQuiz" parent=${enterprise_id} subject=ace group=super SAM=rwx GAM=rx WAM=rx
+/repository/hierarchy/object/install target=${welcome_quiz_id} application="Mentalgami.WelcomeQuiz"
+
+/repository/hierarchy/object/link source=1 target=${regina_private_root_id} relation="regina-private-root"
+/repository/hierarchy/object/link source=1 target=${eureka_private_root_id} relation="eureka-private-root"
+/repository/hierarchy/object/link source=1 target=${afrodita_private_root_id} relation="afrodita-private-root"
+
+${smartcourse_id} = /repository/hierarchy/object/add name="Smart-курс «Спокойствие и равновесие»" application="Mentalgami.SmartCourse" parent=1 subject=ace group=super SAM=rwx GAM=rx WAM=rx
+/repository/hierarchy/object/install target=${smartcourse_id} specification="file://peace-balance-smart-course-rev2.install.specification.json"
+/repository/hierarchy/object/access target=${smartcourse_id} ABACP="file://peace-balance-smart-course-rev2.abacpolicy.json" 
+
+${erp_nomenclature_handle} = /repository/hierarchy/object/open target=${enterprise_id} application=ERP.Nomenclature
+${unitgroup} = /repository/hierarchy/object/${erp_nomenclature_handle}/Cadabra::Ace::Repository::Model::DatasetInterface/Cadabra::Ace::Repository::Model::Insert name:string=unitgroup keyvalue_set:json='{"code": "ONLINEPROGRAM", "name": "Онлайн программы"}'
+${unit} = /repository/hierarchy/object/${erp_nomenclature_handle}/Cadabra::Ace::Repository::Model::DatasetInterface/Cadabra::Ace::Repository::Model::Insert name:string=unit keyvalue_set:json='{"name": "Смарт-курс «Спокойствие и равновесие»", "sku": "com.hudeemonline.peacebalance30", "area": "S", "group_id": ${unitgroup.id}, "intangible": true, "measure": "I"}'
+
+${ec_nomenclature_handle} = /repository/hierarchy/object/open target=${onlineshop_id} application=EC.Nomenclature
+${category} = /repository/hierarchy/object/${ec_nomenclature_handle}/Cadabra::Ace::Repository::Model::DatasetInterface/Cadabra::Ace::Repository::Model::Insert name:string=category keyvalue_set:json='{"caption": "Онлайн курсы", "code": "ONLINECOURSE", "active": true, "visible": true, "unit_group_id": ${unitgroup.id}}'
+${catalogue} = /repository/hierarchy/object/${ec_nomenclature_handle}/Cadabra::Ace::Repository::Model::DatasetInterface/Cadabra::Ace::Repository::Model::Insert name:string=catalogue keyvalue_set:json='{"name": "Смарт-курс «Спокойствие и равновесие»", "available": true, "visible": true, "unit_id": ${unit.id}}'
+${price_ccc} = /repository/hierarchy/object/${ec_nomenclature_handle}/Cadabra::Ace::Repository::Model::DatasetInterface/Cadabra::Ace::Repository::Model::Insert name:string=price keyvalue_set:json='{"catalogue_id": ${catalogue.id}, "currency_code": "CCC", "cost": 100}'
+${price_rub} = /repository/hierarchy/object/${ec_nomenclature_handle}/Cadabra::Ace::Repository::Model::DatasetInterface/Cadabra::Ace::Repository::Model::Insert name:string=price keyvalue_set:json='{"catalogue_id": ${catalogue.id}, "currency_code": "RUB", "cost": 100}'
+${coupon} = /repository/hierarchy/object/${ec_nomenclature_handle}/Cadabra::Ace::Repository::Model::DatasetInterface/Cadabra::Ace::Repository::Model::Insert name:string=coupon keyvalue_set:json='{"code": "PB_30", "unit_id": ${unit.id}, "active": true, "automatic": false, "quantity": 100, "value": 100}'
+${hook} = /repository/hierarchy/object/${ec_nomenclature_handle}/Cadabra::Ace::Repository::Model::DatasetInterface/Cadabra::Ace::Repository::Model::Insert name:string=hook keyvalue_set:json='{"unit_id": ${unit.id}, "object_id": ${smartcourse_id}, "phase": "D", "mode": "L", "argument": {"duration": 43200, "customisation": {"revision": 2}}}'

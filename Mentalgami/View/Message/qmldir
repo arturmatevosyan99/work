@@ -1,0 +1,6 @@
+module Mentalgami.View.Message
+
+SmartCourseMessage 0.0 SmartCourseMessage.qml
+SmartCourseMessage 0.4 SmartCourseMessage.4.qml
+AwardMessage 0.0 AwardMessage.qml
+AwardMessage 0.1 AwardMessage.1.qml

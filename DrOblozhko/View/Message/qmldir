@@ -1,0 +1,10 @@
+module DrOblozhko.View.Message
+
+InteractiveApplicationMessage 0.1 InteractiveApplicationMessage.qml
+InteractiveApplicationMessage 0.4 InteractiveApplicationMessage.4.qml
+VideoLessonMessage 0.1 VideoLessonMessage.qml
+VideoLessonMessage 0.4 VideoLessonMessage.4.qml
+HandBookMessage 0.1 HandBookMessage.qml
+HandBookMessage 0.4 HandBookMessage.4.qml
+WebinarMessage 0.1 WebinarMessage.qml
+WebinarMessage 0.4 WebinarMessage.4.qml

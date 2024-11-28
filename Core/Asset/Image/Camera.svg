@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 144 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Amplify" sketch:type="MSLayerGroup" transform="translate(-14.000000, -14.000000)">
+            <g id="Camera" sketch:type="MSShapeGroup">
+                <g id="ic_photo_camera_black_24px">
+                    <g id="Symbols">
+                        <g id="Android-Composer-/-Default">
+                            <g id="ic_photo_camera_black_24px">
+                                <g id="Group">
+                                    <g>
+                                        <path d="M0,0 L172,0 L172,172 L0,172 L0,0 Z" id="Shape" opacity="0" fill="#B8E986"></path>
+                                        <circle id="Oval" fill="#FFFFFF" cx="86" cy="86" r="22.9333333"></circle>
+                                        <path d="M64.5,14.3333333 L51.385,28.6666667 L28.6666667,28.6666667 C20.7833333,28.6666667 14.3333333,35.1166667 14.3333333,43 L14.3333333,129 C14.3333333,136.883333 20.7833333,143.333333 28.6666667,143.333333 L143.333333,143.333333 C151.216667,143.333333 157.666667,136.883333 157.666667,129 L157.666667,43 C157.666667,35.1166667 151.216667,28.6666667 143.333333,28.6666667 L120.615,28.6666667 L107.5,14.3333333 L64.5,14.3333333 L64.5,14.3333333 L64.5,14.3333333 Z M86,121.833333 C66.22,121.833333 50.1666667,105.78 50.1666667,86 C50.1666667,66.22 66.22,50.1666667 86,50.1666667 C105.78,50.1666667 121.833333,66.22 121.833333,86 C121.833333,105.78 105.78,121.833333 86,121.833333 L86,121.833333 L86,121.833333 Z" id="Shape" fill="#FFFFFF"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

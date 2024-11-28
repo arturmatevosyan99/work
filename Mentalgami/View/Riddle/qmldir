@@ -1,0 +1,5 @@
+module Mentalgami.View.Riddle
+
+EmailAddressRiddle 0.1 EmailAddressRiddle.qml
+PhoneNumberRiddle 0.1 PhoneNumberRiddle.qml
+CodeVerificationRiddle 0.1 CodeVerificationRiddle.qml

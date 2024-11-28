@@ -1,0 +1,313 @@
+{
+    "language": "ru",
+    "revision": 2,
+    "title": "Смарт-курс «Спокойствие и равновесие»",
+    "author": "Сергей Михайлович Обложко",
+    "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.png",
+    "copyright": "Hudeem-Online.Ru",
+    "description": "Вы сможете освоить три основных вида дыхательных упражнений, чтобы успокоиться и снизить уровень стресса, избавиться от неприятных эмоций, решить глубинные психологические проблемы, повысить настроение и зарядиться позитивом.",
+    "release_timestamp": 1723705200,
+    "playlist":
+    [
+        {
+            "tags": ["видео-урок"],
+            "title": "Вводная организационная часть",
+            "weight": 101,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D1.png",
+            "section": "Первый день",
+            "description": "",
+            "content_size": 124,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://904cfc59-1c23-4fc0-8f7a-dc497a4ec2fa.video"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Почему хорошие привычки даются так сложно?",
+            "weight": 102,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D1.png",
+            "section": "Первый день",
+            "description": "",
+            "content_size": 1107,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://62e85039-a171-4274-a7d3-fdc424bb54d4.video"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Как устройство нашего мозга влияет на наше поведение?",
+            "weight": 103,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D1.png",
+            "section": "Первый день",
+            "description": "",
+            "content_size": 477,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://958915a2-3d34-4964-bb7d-a1eadd35707d.video"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Как не попадать в ловушку замкнутого круга?",
+            "weight": 104,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D1.png",
+            "section": "Первый день",
+            "description": "",
+            "content_size": 1437,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://286250aa-bb12-42a5-93d8-3f848d3b7d48.video"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Как дыхание поможет успокоиться?",
+            "weight": 105,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D1.png",
+            "section": "Первый день",
+            "description": "",
+            "content_size": 1454,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://c96da90d-fdee-40de-8ed3-240472400866.video"
+        }
+        ,
+        {
+            "tags": ["аудио-тренажёр"],
+            "title": "Тренажер №1(базовый уровень) «Спокойствие и снятие стресса»",
+            "weight": 106,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D1.png",
+            "section": "Первый день",
+            "description": "",
+            "content_size": 790,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://33f68c84-4dfe-4ee1-bb04-5c27f8204ecb.video"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Частые вопросы",
+            "weight": 107,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D1.png",
+            "section": "Первый день",
+            "description": "",
+            "content_size": 938,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://8e799a05-2c2c-4bc3-8b10-5de9ac788e8b.video"
+        }
+        ,
+        {
+            "tags": ["форма отчёта"],
+            "title": "Форма для наблюдений",
+            "weight": 108,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D1.png",
+            "section": "Первый день",
+            "description": "",
+            "content_size": 1,
+            "content_type": "application/pdf",
+            "content_length": 47224,
+            "content": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412744.pdf"
+        }
+        ,
+        {
+            "tags": ["аудио-тренажёр"],
+            "title": "Тренажер №1(средний уровень) «Спокойствие и снятие стресса»",
+            "weight": 109,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D1.png",
+            "section": "Первый день",
+            "description": "",
+            "content_size": 790,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://f977e24e-c8a5-41aa-b217-13955fdf15a5.video"
+        }
+        ,
+        {
+            "tags": ["аудио-тренажёр"],
+            "title": "Тренажер №1(продвинутый уровень) «Спокойствие и снятие стресса»",
+            "weight": 110,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D1.png",
+            "section": "Первый день",
+            "description": "",
+            "content_size": 790,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://ac87f2f5-5544-4a3e-a82c-63fcd5a6a9db.video"
+        }
+
+        ,
+
+        {
+            "tags": ["видео-урок"],
+            "title": "Парадоксальная техника",
+            "weight": 201,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D2.png",
+            "section": "Второй день",
+            "description": "",
+            "content_size": 268,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://1dced064-3013-4d72-b0a0-15143944034d.video"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Вторая проблема с нашим мозгом, которая слишком часто мешает нам быть счастливыми",
+            "weight": 202,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D2.png",
+            "section": "Второй день",
+            "description": "",
+            "content_size": 1298,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://7bfaf3c8-146d-413a-8f75-6a776b29f707.video"
+        }
+        ,
+        {
+            "tags": ["форма отчёта"],
+            "title": "Что хорошего случилось со мной сегодня?",
+            "weight": 203,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D2.png",
+            "section": "Второй день",
+            "description": "",
+            "content_size": 1,
+            "content_type": "application/pdf",
+            "content_length": 71210,
+            "content": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412749.pdf"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Визуализация как важный элемент дыхательных упражнений",
+            "weight": 204,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D2.png",
+            "section": "Второй день",
+            "description": "",
+            "content_size": 1130,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://3bda9db5-cda3-4935-9d9c-0bf5b6b39ad6.video"
+        }
+        ,
+        {
+            "tags": ["аудио-тренажёр"],
+            "title": "Тренажер №2 «Избавиться от негатива»",
+            "weight": 205,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D2.png",
+            "section": "Второй день",
+            "description": "",
+            "content_size": 957,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://5b2f64d4-6ff3-42b3-9596-0850f6728968.video"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Частые вопросы",
+            "weight": 206,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D2.png",
+            "section": "Второй день",
+            "description": "",
+            "content_size": 592,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://024a7d51-f1f7-45d3-b075-c89ed5fed395.video"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Поступки сильнее, чем эмоции",
+            "weight": 207,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D2.png",
+            "section": "Второй день",
+            "description": "",
+            "content_size": 390,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://b2dc870f-8dde-4dc0-9fc7-68d8636c009f.video"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Третья ловушка нашего мозга",
+            "weight": 301,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D3.png",
+            "section": "Третий день",
+            "description": "",
+            "content_size": 425,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://065a3fc0-ca74-4caa-ae58-5eba7f4c74ea.video"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Что нам поможет в создании полезных привычек?",
+            "weight": 302,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D3.png",
+            "section": "Третий день",
+            "description": "",
+            "content_size": 1541,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://61c5dc1a-9f1c-4be5-afc1-dfbf2ffa633c.video"
+        }
+        ,
+        {
+            "tags": ["аудио-тренажёр"],
+            "title": "Тренажер №3 «Погружение»",
+            "weight": 303,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D3.png",
+            "section": "Третий день",
+            "description": "",
+            "content_size": 2011,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://47aee967-942c-4d09-b077-aa65aeca02ed.video"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Ответы на частые вопросы",
+            "weight": 304,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D3.png",
+            "section": "Третий день",
+            "description": "",
+            "content_size": 406,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://4c9aaff0-fa02-4eb8-88fd-13f8126d88cf.video"
+        }
+        ,
+        {
+            "tags": ["видео-урок"],
+            "title": "Четыре основных принципа работы по созданию новых привычек",
+            "weight": 305,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D3.png",
+            "section": "Третий день",
+            "description": "",
+            "content_size": 520,
+            "content_type": "video/x-cube",
+            "content_length": -1,
+            "content": "cube://0523cdbc-8982-40fb-b960-528c90cb6f14.video"
+        }
+        ,
+        {
+            "tags": ["форма отчёта"],
+            "title": "Ежедневный опросник",
+            "weight": 306,
+            "artwork": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412736.D3.png",
+            "section": "Третий день",
+            "description": "",
+            "content_size": 2,
+            "content_type": "application/pdf",
+            "content_length": 52945,
+            "content": "https://droblozhko2.s3.amazonaws.com/peacebalance/295267259159412759.pdf"
+        }
+    ]
+}

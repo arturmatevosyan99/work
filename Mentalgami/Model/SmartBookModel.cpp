@@ -1,0 +1,47 @@
+#ifndef CADABRA_QUEEN_MENTALGAMI_MODEL_BOOKINDEX_HPP
+#define CADABRA_QUEEN_MENTALGAMI_MODEL_BOOKINDEX_HPP
+
+#include <QAbstractItemModel>
+#include <QDir>
+#include <memory>
+
+namespace Cadabra { namespace Queen { namespace Mentalgami { namespace Model {
+
+class BookIndex : public QAbstractItemModel
+{
+    Q_OBJECT
+
+public:
+    explicit BookIndex(QObject* parent = nullptr);
+    ~BookIndex() override;
+
+    // QAbstractItemModel overrides
+    QVariant data(const QModelIndex& index, int role = Qt::DisplayRole) const override;
+    Qt::ItemFlags flags(const QModelIndex& index) const override;
+    QModelIndex index(int row, int column, const QModelIndex& parent = QModelIndex()) const override;
+    QModelIndex parent(const QModelIndex& index) const override;
+    int rowCount(const QModelIndex& parent = QModelIndex()) const override;
+    int columnCount(const QModelIndex& parent = QModelIndex()) const override;
+
+    void loadDirectory(const QString& path);
+
+private:
+    struct Node
+    {
+        QString name;
+        QString path;
+        QList<std::unique_ptr<Node>> children;
+        Node* parent = nullptr;
+
+        explicit Node(const QString& name, const QString& path, Node* parent = nullptr)
+        : name(name), path(path), parent(parent) {}
+    };
+
+    std::unique_ptr<Node> _root_node;
+
+    void populateNode(Node* node, const QDir& dir);
+};
+
+} } } }
+
+#endif // CADABRA_QUEEN_MENTALGAMI_MODEL_BOOKINDEX_HPP

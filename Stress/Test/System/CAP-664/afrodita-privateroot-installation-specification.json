@@ -1,0 +1,23 @@
+{
+	"home_object_prefix": "Patient",
+	"home_application_alias": "droblozhko.afroditadirectory",
+	"emailaddress_ep_method": {
+		"in_active": false,
+		"up_active": false
+	},
+	"phonenumber_ep_method": {
+		"in_active": false,
+		"up_active": false
+	},
+	"emailmessage_otp_method": {
+		"in_active": true,
+		"up_active": true
+	},
+	"shortmessage_otp_method": {
+		"in_active": true,
+		"up_active": false,
+		"fourxnine_array": [
+							"1*555*"
+		]
+	}
+}

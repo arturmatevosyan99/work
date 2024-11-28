@@ -1,0 +1,3 @@
+module Repository.View.Application
+
+WebApplication 0.1 WebApplication.qml

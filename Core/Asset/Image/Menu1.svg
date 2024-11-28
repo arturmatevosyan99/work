@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 20 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Shape" sketch:type="MSLayerGroup" transform="translate(-76.000000, -42.000000)">
+            <path d="M0,172 L0,0 L172,0 L172,172 L0,172 L0,172 L0,172 L0,172 L0,172 L0,172 Z" sketch:type="MSShapeGroup"></path>
+            <g id="Group" transform="translate(76.000000, 42.000000)" fill="#000000" sketch:type="MSShapeGroup">
+                <ellipse id="Oval-1-Copy-27-Copy" cx="9.6679538" cy="43.8890323" rx="9.51866153" ry="9.5432258"></ellipse>
+                <ellipse id="Oval-1-Copy-43-Copy" cx="9.51866153" cy="78.2348388" rx="9.51866153" ry="9.5432258"></ellipse>
+                <ellipse id="Oval-1-Copy-Copy" cx="9.51866153" cy="9.5432258" rx="9.51866153" ry="9.5432258"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

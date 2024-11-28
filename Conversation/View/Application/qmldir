@@ -1,0 +1,7 @@
+module Conversation.View.Application
+
+ChannelFeed 0.1 ChannelFeed.qml
+ChannelProfile 0.1 ChannelProfile.qml
+ChannelMedia 0.1 ChannelMedia.qml
+ChannelParty 0.1 ChannelParty.qml
+ChannelNavigator 0.1 ChannelNavigator.qml

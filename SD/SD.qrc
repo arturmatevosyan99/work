@@ -1,0 +1,6 @@
+<RCC>
+	<qresource prefix="/SD">
+		<file>View/Document/qmldir</file>
+		<file>View/Document/PurchaseOrder.qml</file>
+	</qresource>
+</RCC>

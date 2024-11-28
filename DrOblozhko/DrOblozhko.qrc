@@ -1,0 +1,64 @@
+<RCC>
+	<qresource prefix="/DrOblozhko">
+		<file>Asset/Style/Guiness.json</file>
+	</qresource>
+
+	<qresource prefix="/DrOblozhko">
+		<file>Asset/Image/Banner.png</file>
+		<file>Asset/Image/DrO.jpg</file>
+		<file>Asset/Image/Protein.jpg</file>
+		<file>Asset/Image/MsA.jpg</file>
+		<file>Asset/Image/Patient.png</file>
+		<file>Asset/Image/AddressBook.svg</file>
+		<file>Asset/Image/Bulb.svg</file>
+		<file>Asset/Image/HandBook.svg</file>
+		<file>Asset/Image/InteractiveApplication.svg</file>
+		<file>Asset/Image/Calendar.svg</file>
+		<file>Asset/Image/CloudDown.svg</file>
+		<file>Asset/Image/InfoCircle.svg</file>
+		<file>Asset/Image/RecycleBin.svg</file>
+		<file>Asset/Image/Synchronization.svg</file>
+		<file>Asset/Image/HudeemOnline1.svg</file>
+		<file>Asset/Image/HudeemOnline2.svg</file>
+		<file>Asset/Image/WebApplication.svg</file>
+		<file>Asset/Icon/AppointmentChannel.svg</file>
+		<file>Asset/Icon/Reception.svg</file>
+		<file>Asset/Icon/Webinar.svg</file>
+		<file>Asset/Icon/SmartCourse.svg</file>
+	</qresource>
+
+	<qresource prefix="/DrOblozhko">
+		<file>View/qmldir</file>
+		<file>View/Splash.qml</file>
+		<file>View/Tour.qml</file>
+		<file>View/Patient.qml</file>
+	</qresource>
+
+	<qresource prefix="/DrOblozhko">
+		<file>View/Application/qmldir</file>
+		<file>View/Application/ReceptionOffice.qml</file>
+		<file>View/Application/ReceptionLobby.qml</file>
+		<file>View/Application/Webinar.qml</file>
+	</qresource>
+
+	<qresource prefix="/DrOblozhko"> 
+		<file>View/Message/qmldir</file>
+		<file>View/Message/VideoLessonMessage.qml</file>
+		<file>View/Message/VideoLessonMessage.4.qml</file>
+		<file>View/Message/HandBookMessage.qml</file>
+		<file>View/Message/HandBookMessage.4.qml</file>
+		<file>View/Message/InteractiveApplicationMessage.qml</file>
+		<file>View/Message/InteractiveApplicationMessage.4.qml</file>
+		<file>View/Message/WebinarMessage.qml</file>
+		<file>View/Message/WebinarMessage.4.qml</file>
+		<file>Asset/Image/Tour1@1x.png</file>
+		<file>Asset/Image/Tour2@1x.png</file>
+		<file>Asset/Image/Tour3@1x.png</file>
+		<file>Asset/Image/Tour4@1x.png</file>
+		<file>Asset/Image/PushRequest.png</file>
+	</qresource>
+
+	<qresource prefix="/DrOblozhko" lang="ru">
+		<file alias="Asset/Image/PushRequest.png">Asset/Image/PushRequestRu.png</file>
+	</qresource>
+</RCC>

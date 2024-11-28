@@ -1,0 +1,20 @@
+module Conversation.View.Message
+
+WithdrawalMessage 0.1 WithdrawalMessage.qml
+TextMessage 0.1 TextMessage.qml
+VideoscopeMessage 0.1 VideoscopeMessage.qml
+VoiceMessage 0.1 VoiceMessage.qml
+PollMessage 0.1 PollMessage.qml
+CommandMessage 0.1 CommandMessage.qml
+EchoMessage 0.1 EchoMessage.qml
+PictureMessage 0.1 PictureMessage.qml
+HyperlinkMessage 0.1 HyperlinkMessage.qml
+AppletMessage 0.1 AppletMessage.qml
+AttachmentMessage 0.1 AttachmentMessage.qml
+AuthorizationMessage 0.1 AuthorizationMessage.qml
+UnsupportedMessage 0.1 UnsupportedMessage.qml
+BrokenMessage 0.1 BrokenMessage.qml
+PDFMessage 0.1 PDFMessage.qml
+HealthRequestMessage 0.1 HealthRequestMessage.qml
+PushRequestMessage 0.1 PushRequestMessage.qml
+YoutubeMessage 0.1 YoutubeMessage.qml

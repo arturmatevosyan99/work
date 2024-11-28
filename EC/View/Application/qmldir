@@ -1,0 +1,4 @@
+module EC.View.Application
+
+ShopShowcase 0.1 ShopShowcase.qml
+CustomerAccount 0.1 CustomerAccount.qml

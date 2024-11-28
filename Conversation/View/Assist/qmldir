@@ -1,0 +1,7 @@
+module Conversation.View.Assist
+
+UnsupportedAssist 0.1 UnsupportedAssist.qml
+CarouselLayout 0.1 CarouselLayout.qml
+VerticalLayout 0.1 VerticalLayout.qml
+TextPush 0.1 TextPush.qml
+HyperLink 0.1 HyperLink.qml

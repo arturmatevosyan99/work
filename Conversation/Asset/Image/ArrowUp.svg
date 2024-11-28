@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 172 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="ArrowUp" sketch:type="MSLayerGroup">
+            <g id="Group" sketch:type="MSShapeGroup">
+                <path d="M0,172 L0,0 L172,0 L172,172 L0,172 Z" id="Shape"></path>
+                <g id="Shape">
+                    <path d="M171.245617,86 C171.245617,132.885091 132.885091,171.245617 86,171.245617 C39.1149093,171.245617 0.754382947,132.885091 0.754382947,86 C0.754382947,39.1149093 39.1149093,0.754382947 86,0.754382947 C132.885091,0.754382947 171.245617,39.1149093 171.245617,86 L171.245617,86 Z" fill="#27aae3"></path>
+                    <path d="M121.376933,84.7213158 L86,49.3443829 L50.6230672,84.7213158 L44.6558712,78.7541198 L85.9999909,37.41 L127.344111,78.7541198 L121.376933,84.7213158 Z" fill="#FFFFFF"></path>
+                    <path d="M81.7377223,47.6394737 L90.2622867,47.6394737 L90.2622867,128.622804 L81.7377223,128.622804 L81.7377223,47.6394737 Z" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

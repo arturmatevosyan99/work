@@ -1,0 +1,10 @@
+<RCC>
+	<qresource prefix="/Conversation/Test">
+		<file>Development/GroupChannelTest.qml</file>
+	</qresource>
+
+	<qresource prefix="/Conversation/Test">
+		<file>Integration/GroupChannelEcho.qml</file>
+		<file>Integration/CourseAddition.qml</file>
+	</qresource>
+</RCC>

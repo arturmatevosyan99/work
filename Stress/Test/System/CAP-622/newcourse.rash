@@ -1,0 +1,4 @@
+#!/usr/local/bin/ace
+${object_id} = /repository/hierarchy/object/add name="Smart-курс «Спокойствие и равновесие»" application="mentalgami.smartcourse" parent=1 subject=ace group=super SAM=rwx GAM=rx WAM=rx
+/repository/hierarchy/object/install target=${object_id} specification="file://install.rev2.specification.json"
+/repository/hierarchy/object/access target=${object_id} ABACP="file://abac.rev2.policy.json"

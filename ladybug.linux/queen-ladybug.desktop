@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Ladybug
+Comment=The best viewer for Foo objects available!
+Categories=Development
+TryExec=queen-ladybug
+Exec=queen-ladybug %F
+Icon=queen-ladybug
+Terminal=true

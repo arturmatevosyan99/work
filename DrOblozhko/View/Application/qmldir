@@ -1,0 +1,5 @@
+module DrOblozhko.View.Application
+
+ReceptionLobby 0.1 ReceptionLobby.qml
+ReceptionOffice 0.1 ReceptionOffice.qml
+Webinar 0.1 Webinar.qml

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="ArrowUp" sketch:type="MSLayerGroup" transform="translate(90.000000, 90.000000) rotate(-90.000000) translate(-90.000000, -90.000000) translate(4.000000, 4.000000)">
+            <g id="Untitled" transform="translate(-0.000000, 0.000000)" sketch:type="MSShapeGroup">
+                <g id="Page-1" transform="translate(-0.000000, 0.000000)">
+                    <g id="ArrowUp" transform="translate(-0.000000, 0.000000)">
+                        <g id="Group" transform="translate(-0.000000, 0.000000)">
+                            <path d="M-5.68434189e-14,172 L-5.68434189e-14,0 L172,0 L172,172 L-5.68434189e-14,172 L-5.68434189e-14,172 Z" id="Shape"></path>
+                            <g id="Shape" transform="translate(-0.000000, 0.000000)">
+                                <path d="M86,171.245617 C39.1149093,171.245617 0.754382947,132.885091 0.754382947,86 C0.754382947,39.1149093 39.1149093,0.754382947 86,0.754382947 C132.885091,0.754382947 171.245617,39.1149093 171.245617,86 C171.245617,132.885091 132.885091,171.245617 86,171.245617 Z" stroke="#FFFFFF" stroke-width="8.5"></path>
+                                <path d="M121.376933,84.7213158 L86,49.3443829 L50.6230672,84.7213158 L44.6558712,78.7541198 L85.9999909,37.41 L127.344111,78.7541198 L121.376933,84.7213158 L121.376933,84.7213158 Z" fill="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

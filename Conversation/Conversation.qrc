@@ -1,0 +1,70 @@
+<RCC>
+	<qresource prefix="/Conversation">
+		<file>Asset/Image/ChatNavigator.svg</file>
+		<file>Asset/Image/Attachment.svg</file>
+		<file>Asset/Image/Attachment2.svg</file>
+		<file>Asset/Image/Microphone3.svg</file>
+		<file>Asset/Image/ArrowUp.svg</file>
+		<file>Asset/Image/Play.svg</file>
+		<file>Asset/Image/Cancel.svg</file>
+		<file>Asset/Image/Cancel2.svg</file>
+		<file>Asset/Image/Cancel3.svg</file>
+		<file>Asset/Image/Ok.svg</file>
+		<file>Asset/Image/Party1.svg</file>
+		<file>Asset/Image/Telegram.svg</file>
+		<file>Asset/Image/YoutubeMQDefaultThumbnail.jpg</file>
+		<file>Asset/Image/YoutubeDefaultThumbnail.jpg</file>
+		<file>Asset/Sound/ChannelPush.wav</file>
+		<file>Asset/Sound/ChannelPull.wav</file>
+		<file>Asset/Icon/GroupChannel.svg</file>
+	</qresource>
+
+	<qresource prefix="/Conversation">
+		<file>View/qmldir</file>
+		<file>View/ChannelShield.qml</file>
+		<file>View/FeedView.qml</file>
+		<file>View/MediaList.qml</file>
+		<file>View/MediaGrid.qml</file>
+		<file>View/MediaCarousel.qml</file>
+	</qresource>
+
+	<qresource prefix="/Conversation">
+		<file>View/Application/qmldir</file>
+		<file>View/Application/ChannelFeed.qml</file>
+		<file>View/Application/ChannelProfile.qml</file>
+		<file>View/Application/ChannelParty.qml</file>
+		<file>View/Application/ChannelMedia.qml</file>
+		<file>View/Application/ChannelNavigator.qml</file>
+	</qresource>
+
+	<qresource prefix="/Conversation">
+		<file>View/Message/qmldir</file>
+		<file>View/Message/WithdrawalMessage.qml</file>
+		<file>View/Message/BrokenMessage.qml</file>
+		<file>View/Message/UnsupportedMessage.qml</file>
+		<file>View/Message/TextMessage.qml</file>
+		<file>View/Message/PollMessage.qml</file>
+		<file>View/Message/VideoscopeMessage.qml</file>
+		<file>View/Message/PictureMessage.qml</file>
+		<file>View/Message/VoiceMessage.qml</file>
+		<file>View/Message/CommandMessage.qml</file>
+		<file>View/Message/EchoMessage.qml</file>
+		<file>View/Message/AttachmentMessage.qml</file>
+		<file>View/Message/YoutubeMessage.qml</file>
+		<file>View/Message/HyperlinkMessage.qml</file>
+		<file>View/Message/PushRequestMessage.qml</file>
+		<file>View/Message/HealthRequestMessage.qml</file>
+		<file>View/Message/AppletMessage.qml</file>
+		<file>View/Message/AuthorizationMessage.qml</file>
+		<file>View/Message/PDFMessage.qml</file>
+	</qresource>
+
+	<qresource prefix="/Conversation">
+		<file>View/Assist/qmldir</file>
+		<file>View/Assist/UnsupportedAssist.qml</file>
+		<file>View/Assist/CarouselLayout.qml</file>
+		<file>View/Assist/VerticalLayout.qml</file>
+		<file>View/Assist/TextPush.qml</file>
+		<file>View/Assist/HyperLink.qml</file>
+	</qresource>
+</RCC>

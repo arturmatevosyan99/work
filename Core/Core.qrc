@@ -1,0 +1,71 @@
+<RCC>
+	<qresource prefix="/Core">
+		<file>Asset/Style/Guiness.json</file>
+	</qresource>
+
+	<qresource prefix="/Core">
+		<file>Asset/Font/Inter.Variable.ttf</file>
+		<file>Asset/Font/AppleColor.Emoji.ttf</file>
+<!--		<file>Asset/Font/NotoColor.Emoji.ttf</file> -->
+	</qresource>
+
+	<qresource prefix="/Core">
+		<file>Asset/Image/Play.svg</file>
+		<file>Asset/Image/Pause.svg</file>
+		<file>Asset/Image/Stop.svg</file>
+		<file>Asset/Image/Mute.svg</file>
+		<file>Asset/Image/Amplify.svg</file>
+		<file>Asset/Image/Cancel.svg</file>
+		<file>Asset/Image/Camera.svg</file>
+		<file>Asset/Image/Back.svg</file>
+		<file>Asset/Image/Back2.svg</file>
+		<file>Asset/Image/Menu1.svg</file>
+		<file>Asset/Image/Menu2.svg</file>
+		<file>Asset/Image/ArrowUp.svg</file>
+		<file>Asset/Image/Magnifier.svg</file>
+		<file>Asset/Image/MagnifierBar.svg</file>
+		<file>Asset/Image/Media1.svg</file>
+		<file>Asset/Image/Search1.svg</file>
+		<file>Asset/Image/Profile1.svg</file>
+		<file>Asset/Image/Collapse1.svg</file>
+		<file>Asset/Image/Collapse2.svg</file>
+		<file>Asset/Image/Help1.svg</file>
+		<file>Asset/Image/Help2.svg</file>
+		<file>Asset/Image/Stack1.svg</file>
+		<file>Asset/Image/Stack2.svg</file>
+		<file>Asset/Image/DotCube1.svg</file>
+		<file>Asset/Image/DotCube2.svg</file>
+		<file>Asset/Image/DotCube3.svg</file>
+		<file>Asset/Image/Exit1.svg</file>
+		<file>Asset/Image/Exit2.svg</file>
+		<file>Asset/Image/Lifebuoy1.svg</file>
+		<file>Asset/Image/Lifebuoy2.svg</file>
+		<file>Asset/Image/Refresh2.svg</file>
+		<file>Asset/Image/VideoResolution.svg</file>
+		<file>Asset/Image/VideoResolutionSD.svg</file>
+		<file>Asset/Image/VideoResolutionHD.svg</file>
+		<file>Asset/Image/VideoResolutionFHD.svg</file>
+		<file>Asset/Image/VideoResolution2K.svg</file>
+		<file>Asset/Image/VideoResolution4K.svg</file>
+		<file>Asset/Image/VideoResolution8K.svg</file>
+	</qresource>
+
+	<qresource prefix="/Core">
+		<file>View/qmldir</file>
+		<file>View/StackBar.qml</file>
+		<file>View/TextareaDelegate.qml</file>
+		<file>View/CallbackDelegate.qml</file>
+		<file>View/MultimediaPlayer.qml</file>
+		<file>View/ImageViewer.qml</file>
+		<file>View/PDFViewer.qml</file>
+		<file>View/Camera.qml</file>
+		<file>View/FileDialog.qml</file>
+		<file>View/DiagnosticCollector.qml</file>
+		<file>View/ActionButton.qml</file>
+		<file>View/AccountInput.qml</file>
+		<file>View/PinInput.qml</file>
+		<file>View/PopupAlert.qml</file>
+		<file>View/WebView.qml</file>
+		<file>View/ProgressPie.qml</file>
+	</qresource>
+</RCC>
