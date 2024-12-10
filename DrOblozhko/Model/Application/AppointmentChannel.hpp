@@ -1,10 +1,10 @@
 #ifndef Cadabra_Queen_DrOblozhko_Model_Application_AppointmentChannel_hpp
 #define Cadabra_Queen_DrOblozhko_Model_Application_AppointmentChannel_hpp
 
-#include "../../../Mentalgami/Model/Application/SmartChannel.hpp"
+#include "../../../SmartCare/Model/Application/SmartChannel.hpp"
 
 namespace Cadabra { namespace Queen { namespace DrOblozhko { namespace Model {
-	class AppointmentChannel : public Mentalgami::Model::SmartChannel
+	class AppointmentChannel : public SmartCare::Model::SmartChannel
 	{
 	/** @name Classes */
 	/** @{ */

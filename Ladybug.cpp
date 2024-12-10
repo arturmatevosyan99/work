@@ -9,6 +9,7 @@
 #include "SD/SD.hpp"
 #include "EC/EC.hpp"
 #include "Mentalgami/Mentalgami.hpp"
+#include "SmartCare/SmartCare.hpp"
 
 #include "Core/System/Alert.hpp"
 #include "Core/Meta/Scheme/TestScheme.hpp"
@@ -123,6 +124,7 @@ namespace Cadabra { namespace Queen {
 		Skeleton::extend(new EC::Extension());
 		Skeleton::extend(new DrOblozhko::Extension());
 		Skeleton::extend(new Mentalgami::Extension());
+        Skeleton::extend(new SmartCare::Extension());
 		Skeleton::extend(_stress_extension);
 
 		return true;

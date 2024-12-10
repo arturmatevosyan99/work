@@ -3,7 +3,7 @@
 namespace Cadabra { namespace Queen { namespace DrOblozhko { namespace Model {
 	AppointmentChannel::AppointmentChannel(QObject* parent)
 	:
-		Mentalgami::Model::SmartChannel(parent)
+		SmartCare::Model::SmartChannel(parent)
 	{
 	}
 

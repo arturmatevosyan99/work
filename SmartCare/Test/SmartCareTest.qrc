@@ -1,0 +1,12 @@
+<RCC>
+	<qresource prefix="/SmartCare/Test">
+		<file>Development/PatientQuizTest.qml</file>
+                <file>Development/MarkdownViewTest.qml</file>
+	</qresource>
+
+	<qresource prefix="/SmartCare/Test">
+		<file>Integration/UnifiedLogInCase.qml</file>
+		<file>Integration/AuthorizationQuizFlow.qml</file>
+		<file>Integration/WelcomeQuizFlow.qml</file>
+	</qresource>
+</RCC>

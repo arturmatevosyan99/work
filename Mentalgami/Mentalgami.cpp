@@ -4,52 +4,50 @@
 
 #include "../Conversation/Meta/MessageRender.hpp"
 
-#include "Meta/Course.hpp"
-#include "Meta/Track.hpp"
-#include "Meta/TrackRender.hpp"
+#include "Meta/mg_Course.hpp"
+#include "Meta/mg_Track.hpp"
+#include "Meta/mg_TrackRender.hpp"
 
-#include "View/TrackLayout.hpp"
-#include "View/TrackView.hpp"
-#include "View/TrackStackview.hpp"
-#include "View/Moji.hpp"
+#include "View/mg_TrackLayout.hpp"
+#include "View/mg_TrackView.hpp"
+#include "View/mg_TrackStackview.hpp"
+#include "View/mg_Moji.hpp"
 
-#include "Model/Application/SmartChannel.hpp"
-#include "Model/Application/GenericQuiz.hpp"
-#include "Model/Application/Quiz/WelcomeQuiz.hpp"
-#include "Model/Application/Quiz/BMIQuiz.hpp"
-#include "Model/Application/Quiz/IdealWeightQuiz.hpp"
-#include "Model/Application/Quiz/WHRQuiz.hpp"
-#include "Model/Application/Quiz/CalorieBalanceQuiz.hpp"
-#include "Model/Application/SmartCourse.hpp"
-#include "Model/Application/EurekaDirectory.hpp"
-#include "Model/Track/VideoTrack.hpp"
-#include "Model/Track/WebTrack.hpp"
-#include "Model/Track/HTMLTrack.hpp"
-#include "Model/Track/MSExcelTrack.hpp"
-#include "Model/Track/MSWordTrack.hpp"
-#include "Model/Track/RTFTrack.hpp"
-#include "Model/Track/PDFTrack.hpp"
-#include "Model/Track/CalendarTrack.hpp"
-#include "Model/Track/TelegramTrack.hpp"
+#include "Model/Application/mg_SmartChannel.hpp"
+#include "Model/Application/mg_GenericQuiz.hpp"
+#include "Model/Application/Quiz/mg_WelcomeQuiz.hpp"
+#include "Model/Application/Quiz/mg_BMIQuiz.hpp"
+#include "Model/Application/Quiz/mg_IdealWeightQuiz.hpp"
+#include "Model/Application/Quiz/mg_WHRQuiz.hpp"
+#include "Model/Application/Quiz/mg_CalorieBalanceQuiz.hpp"
+#include "Model/Application/mg_SmartCourse.hpp"
+#include "Model/Application/mg_EurekaDirectory.hpp"
+#include "Model/Track/mg_VideoTrack.hpp"
+#include "Model/Track/mg_WebTrack.hpp"
+#include "Model/Track/mg_HTMLTrack.hpp"
+#include "Model/Track/mg_MSExcelTrack.hpp"
+#include "Model/Track/mg_MSWordTrack.hpp"
+#include "Model/Track/mg_RTFTrack.hpp"
+#include "Model/Track/mg_PDFTrack.hpp"
+#include "Model/Track/mg_CalendarTrack.hpp"
+#include "Model/Track/mg_TelegramTrack.hpp"
 
-#include "Model/Message/SmartCourseMessage.hpp"
-#include "Model/Message/AwardMessage.hpp"
+#include "Model/Message/mg_SmartCourseMessage.hpp"
+#include "Model/Message/mg_AwardMessage.hpp"
 
-#include "Model/Riddle/AuthorizationRiddle.hpp"
-#include "Model/Riddle/BoolRiddle.hpp"
-#include "Model/Riddle/DateRiddle.hpp"
-#include "Model/Riddle/IntegerRiddle.hpp"
-#include "Model/Riddle/ListRiddle.hpp"
-#include "Model/Riddle/NullRiddle.hpp"
-#include "Model/Riddle/NumericRiddle.hpp"
-#include "Model/Riddle/TextRiddle.hpp"
+#include "Model/Riddle/mg_AuthorizationRiddle.hpp"
+#include "Model/Riddle/mg_BoolRiddle.hpp"
+#include "Model/Riddle/mg_DateRiddle.hpp"
+#include "Model/Riddle/mg_IntegerRiddle.hpp"
+#include "Model/Riddle/mg_ListRiddle.hpp"
+#include "Model/Riddle/mg_NullRiddle.hpp"
+#include "Model/Riddle/mg_NumericRiddle.hpp"
+#include "Model/Riddle/mg_TextRiddle.hpp"
 
-#include "Model/SmartBookModel.hpp"
+#include "View/mg_RiddleView.hpp"
+#include "Meta/mg_RiddleRender.hpp"
 
-#include "View/RiddleView.hpp"
-#include "Meta/RiddleRender.hpp"
-
-#include "Controller/Application/QuizFlow.hpp"
+#include "Controller/Application/mg_QuizFlow.hpp"
 
 #include "../Repository/Meta/ApplicationRender.hpp"
 
@@ -133,8 +131,6 @@ namespace Cadabra { namespace Queen { namespace Mentalgami {
 		qmlRegisterType<Mentalgami::Model::NullRiddle>("Mentalgami.Model", 0, 1, "NullRiddle");
 		qmlRegisterType<Mentalgami::Model::NumericRiddle>("Mentalgami.Model", 0, 1, "NumericRiddle");
 		qmlRegisterType<Mentalgami::Model::TextRiddle>("Mentalgami.Model", 0, 1, "TextRiddle");
-
-        qmlRegisterType<Mentalgami::Model::SmartBookModel>("Mentalgami.Model", 0, 1, "SmartBookModel");
 
 		qmlRegisterType<Mentalgami::Meta::RiddleInformation>("Mentalgami.Meta", 0, 1, "RiddleInformation");
 

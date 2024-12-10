@@ -6,6 +6,7 @@
 #include "ERP/ERP.hpp"
 #include "SD/SD.hpp"
 #include "EC/EC.hpp"
+#include "SmartCare/SmartCare.hpp"
 #include "Mentalgami/Mentalgami.hpp"
 #include "DrOblozhko/DrOblozhko.hpp"
 
@@ -48,6 +49,7 @@ namespace Cadabra { namespace Queen {
 		Skeleton::extend(new ERP::Extension());
 		Skeleton::extend(new SD::Extension());
 		Skeleton::extend(new EC::Extension());
+		Skeleton::extend(new SmartCare::Extension());
 		Skeleton::extend(new Mentalgami::Extension());
 		Skeleton::extend(new DrOblozhko::Extension());
 

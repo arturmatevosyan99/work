@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
+    <g id="Слой1" transform="matrix(0.941996,0,0,0.941996,-2.43685,-2.69975)">
+        <g transform="matrix(0.98909,0,0,0.995428,0.240443,0.022558)">
+            <path d="M40.48,13.401L30.583,2.856L7.196,2.856L7.196,45.515L40.48,45.515L40.48,13.401Z" style="fill:white;"/>
+            <path d="M40.48,13.401L30.583,2.856L7.196,2.856L7.196,45.515L40.48,45.515L40.48,13.401ZM39.407,13.821L39.407,44.448C39.407,44.448 8.269,44.448 8.269,44.448C8.269,44.448 8.269,3.923 8.269,3.923C8.269,3.923 30.116,3.923 30.116,3.923L39.407,13.821Z" style="fill:rgb(91,148,203);"/>
+        </g>
+        <g transform="matrix(0.999991,0.00426227,-0.00426227,0.999991,1.1903,0.201167)">
+            <path d="M11.918,19.084L33.501,18.992" style="fill:none;stroke:rgb(91,148,203);stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(0.763378,0.00325376,-0.00325376,0.763378,3.99073,8.66565)">
+            <path d="M11.918,19.084L33.501,18.992" style="fill:none;stroke:rgb(91,148,203);stroke-width:1.39px;"/>
+        </g>
+        <g transform="matrix(0.763378,0.00248387,-0.00325376,0.582752,3.99073,20.248)">
+            <path d="M11.918,19.084L33.501,18.992" style="fill:none;stroke:rgb(91,148,203);stroke-width:1.56px;"/>
+        </g>
+        <g transform="matrix(0.999991,0.00426227,-0.00426227,0.999991,1.1902,8.29246)">
+            <path d="M11.918,19.084L33.501,18.992" style="fill:none;stroke:rgb(91,148,203);stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(0.999991,0.00426227,-0.00426227,0.999991,1.1901,16.3838)">
+            <path d="M11.918,19.084L33.501,18.992" style="fill:none;stroke:rgb(91,148,203);stroke-width:1px;"/>
+        </g>
+        <path d="M29.503,2.866L30.568,2.866L40.279,13.362L40.279,14.338L29.503,14.356L29.503,2.866Z" style="fill:rgb(223,240,254);"/>
+        <path d="M29.503,2.866L30.568,2.866L40.279,13.362L40.279,14.338L29.503,14.356L29.503,2.866ZM30.565,13.293L38.756,13.279L30.565,4.426L30.565,13.293Z" style="fill:rgb(91,148,203);"/>
+    </g>
+</svg>

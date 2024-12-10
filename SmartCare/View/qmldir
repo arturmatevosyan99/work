@@ -1,0 +1,4 @@
+module SmartCare.View
+
+ConversationChannelShield 0.1 ConversationChannelShield.qml
+MarkdownView 0.1 MarkdownView.qml

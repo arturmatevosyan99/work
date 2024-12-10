@@ -1,7 +1,6 @@
 <RCC>
 	<qresource prefix="/Mentalgami/Test">
 		<file>Development/PatientQuizTest.qml</file>
-                <file>Development/SmartBookTest.qml</file>
 	</qresource>
 
 	<qresource prefix="/Mentalgami/Test">

@@ -1,0 +1,21 @@
+module SmartCare.View.Track
+
+UnsupportedTrack 0.1 UnsupportedTrack.qml
+VideoTrack 0.1 VideoTrack.qml
+VideoTrack 2.1 VideoTrack.2.qml
+WebTrack 0.1 WebTrack.qml
+WebTrack 2.1 WebTrack.2.qml
+HTMLTrack 0.1 HTMLTrack.qml
+HTMLTrack 2.1 HTMLTrack.2.qml
+MSExcelTrack 0.1 MSExcelTrack.qml
+MSExcelTrack 1.1 MSExcelTrack.1.qml
+MSWordTrack 0.1 MSWordsTrack.qml
+MSWordTrack 1.1 MSWordTrack.1.qml
+RTFTrack 0.1 RTFTrack.qml
+RTFTrack 1.1 RTFTrack.1.qml
+PDFTrack 0.1 PDFTrack.qml
+PDFTrack 1.1 PDFTrack.1.qml
+CalendarTrack 0.1 CalendarTrack.qml
+CalendarTrack 1.1 CalendarTrack.1.qml
+TelegramTrack 0.1 TelegramTrack.qml
+TelegramTrack 1.1 TelegramTrack.1.qml
